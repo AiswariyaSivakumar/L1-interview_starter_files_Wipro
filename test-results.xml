@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="16" failures="0" errors="0" time="0.9901187">
+    <testsuite name="src/exercise/example1.test.tsx" timestamp="2026-10-14T15:31:48.868Z" hostname="NKW-MCLD-016" tests="6" failures="0" errors="0" skipped="0" time="0.0844465">
+        <testcase classname="src/exercise/example1.test.tsx" name="DeploymentCard &gt; renders the application name" time="0.0505227">
+        </testcase>
+        <testcase classname="src/exercise/example1.test.tsx" name="DeploymentCard &gt; renders the deployment id" time="0.0057316">
+        </testcase>
+        <testcase classname="src/exercise/example1.test.tsx" name="DeploymentCard &gt; renders the version" time="0.0049863">
+        </testcase>
+        <testcase classname="src/exercise/example1.test.tsx" name="DeploymentCard &gt; renders the deployment status" time="0.0053404">
+        </testcase>
+        <testcase classname="src/exercise/example1.test.tsx" name="DeploymentCard &gt; renders the requested by value" time="0.009883">
+        </testcase>
+        <testcase classname="src/exercise/example1.test.tsx" name="DeploymentCard &gt; renders the scheduled date" time="0.0047498">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/exercise/example2.test.tsx" timestamp="2026-10-14T15:31:48.880Z" hostname="NKW-MCLD-016" tests="7" failures="0" errors="0" skipped="0" time="0.3703242">
+        <testcase classname="src/exercise/example2.test.tsx" name="useDeploymentFilters Hook &gt; initializes with default values and returns all deployments" time="0.0142852">
+        </testcase>
+        <testcase classname="src/exercise/example2.test.tsx" name="useDeploymentFilters Hook &gt; filters deployments by application name case-insensitively" time="0.0034608">
+        </testcase>
+        <testcase classname="src/exercise/example2.test.tsx" name="useDeploymentFilters Hook &gt; filters deployments by status filter" time="0.0025541">
+        </testcase>
+        <testcase classname="src/exercise/example2.test.tsx" name="useDeploymentFilters Hook &gt; combines search query and status filter correctly" time="0.0020993">
+        </testcase>
+        <testcase classname="src/exercise/example2.test.tsx" name="useDeploymentFilters Hook &gt; handles null/undefined/empty arrays safely" time="0.0016104">
+        </testcase>
+        <testcase classname="src/exercise/example2.test.tsx" name="SearchPlaceholder Component (example2.tsx UI) &gt; renders search input and filter buttons" time="0.2209089">
+        </testcase>
+        <testcase classname="src/exercise/example2.test.tsx" name="SearchPlaceholder Component (example2.tsx UI) &gt; updates search input when typed into" time="0.1216424">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/exercise/example3.test.tsx" timestamp="2026-10-14T15:31:48.890Z" hostname="NKW-MCLD-016" tests="3" failures="0" errors="0" skipped="0" time="0.535348">
+        <testcase classname="src/exercise/example3.test.tsx" name="Example3 Full Integration &gt; loads and displays deployments from query" time="0.1063457">
+        </testcase>
+        <testcase classname="src/exercise/example3.test.tsx" name="Example3 Full Integration &gt; filters deployments using the search box" time="0.271676">
+        </testcase>
+        <testcase classname="src/exercise/example3.test.tsx" name="Example3 Full Integration &gt; advances a deployment status when clicking the advance button" time="0.1539808">
+        </testcase>
+    </testsuite>
+</testsuites>
